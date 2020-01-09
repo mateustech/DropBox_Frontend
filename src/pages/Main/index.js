@@ -1,4 +1,4 @@
-import React, { useState, setState } from 'react';
+import React, { useState } from 'react';
 import api from '../../service/api'
 import './styles.css';
 import logo from '../../assents/logo.png'
