@@ -15,6 +15,7 @@ export default function Box(props) {
 
       data.append('file', file)
       api.post(`/boxes/${id}/files`, data)
+      window.location.reload()
     })
   }
 
